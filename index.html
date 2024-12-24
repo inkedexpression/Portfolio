@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/037d7453a0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="assests/DN.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#case-study">CASE STUDY</a></li>
+                    <li><a href="#project">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT ME</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p class="hed">Aspiring Data Scientist</p>
+                <h1>Hi, I'm <span>D Dhanush Naik</span> <br>from Bharat</h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------------------about-------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-cal-1">
+                <img src="assests/photo_2024-09-24 12.07.12.jpeg" alt="">
+            </div>
+            <div class="about-cal-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="dis-2">Once upon a time, there was a curious mind, captivated by the endless possibilities of technology and data. 
+                    This mind, fueled by an unrelenting passion for problem-solving, found its home in the vast world of Artificial 
+                    Intelligence and Machine Learning. From humble beginnings with Python, this young explorer embarked on a journey 
+                    through intricate algorithms and data structures, where every challenge was an opportunity to learn.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Interships')">Interships</p>
+                    <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    <p class="tab-links" onclick="opentab('Extra-Curricular')">Extra-Curricular</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Team Management</span></li>
+                        <li><span>Leadership</span></li>
+                        <li><span>Communication</span></li>
+                        <li><span>Team work</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Interships">
+                    <ul>
+                        <li><span>CampusX</span><br><p class="dis-3">Have pursued course on DSMP(data science membership program).<br>ML Algo , MLOPs , SQL , APIs</p></li>
+                        <li><span>Accolade</span><br><p class="dis-3">Have pursued Internship on data science field</p></li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>Bachlore of technology (2021-25)</span><br><p class="dis-3">Artifical Intelligence and Machine Learning in Srinivas Institute of Engineering and Technology , mukka</p></li>
+                        <li><span>Intermediate(2019-21)</span><br><p class="dis-3">pursued 12th(PCMS) in VIKAAS Pre University , Mangalore </p> </li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Extra-Curricular">
+                    <ul>
+                        <li><span>Graphic Designer</span><br><p class="dis-3">Served as the lead graphic designer for a national-level tech function (Tech Yuva and
+                            Kalaspandana 2024) in college.</p></li>
+                        <li><span>Member of SIIC</span><br><p class="dis-3">Member of Srinivas Innovation and Incubation Center(SIIC) worked as a graphic designer,
+                            creating visual concepts to Internship and communicate ideas , for SkillFelx colbrative Startup.</p></li>
+                        <li><span>Part of National Scout</span><br><p class="dis-3">Attended a state-level (Rajya Puraskar) scout camp during 10th grade at Kendriya Vidyalaya
+                            RWF, Yelahanka, Bengaluru, developing skills in teamwork, leadership, and survival.</p></li>
+                        <li><span>Digital Art</span><br><p class="dis-3">Proficient digital artist with experience in creating visually appealing designs and artwork using
+                            various digital tools and software.</p></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------------case study---------------- -->
+<div id="case-study">
+    <div class="container">
+        <h1 class="sub-title">Case Study</h1>
+        <div class="case-study-list">
+            <div>
+                <i class="fa-solid fa-clock"></i>
+                <h2>Time Series</h2>
+                <p>Discription</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-file"></i>
+                <h2>textual data</h2>
+                <p>Discription</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>smartphone</h2>
+                <p>Discription</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>EDA smartphone</h2>
+                <p>Discription</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <h2>startup funding</h2>
+                <p>Discription</p>
+                <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- ----------------------project----------------- -->
+ <div id="project">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="project-list">
+            <div class="work">
+                <img src="assests/anime_fairy.jpg" >
+                <div class="layer">
+                    <h3>Image generation</h3>
+                    <p>This project is a web-based Natural Language Processing (NLP) application built using Flask. It allows users to register, log in.
+                    The main functionalities include Image Generation based on textual input</p>
+                    <a href="https://github.com/inkedexpression/Image-generation-using-NLP"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/rambutan.jpg" >
+                <div class="layer">
+                    <h3>Rambutan Classificstion</h3>
+                    <p>Rambutan Classificstion ML model were the rambutan fruit is classified based on Sweetness and variety</p>
+                    <a href="https://github.com/inkedexpression/rambutan_classfier"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/NLP_Icon.png" >
+                <div class="layer">
+                    <h3>NLP Analysis</h3>
+                    <p>in this application you have 3 NLP API for 1.sentimental analysis , name entity records, language detection</p>
+                    <a href="https://github.com/inkedexpression/NLP-app-sentiment-analysis-name-entity-recognition-language-detection"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+         <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-- ----------------tech------------------------ -->
+ <div id="technologies">
+    <div class="container">
+        <h1 class="sub-title">Technologies</h1>
+        <div class="tech-list">
+            <div class="work">
+                <img src="assests/python-seeklogo.svg" alt="Python">
+                <div class="layer">
+                    <h3>Python</h3>
+                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/tensorflow-seeklogo.svg" alt="TensorFlow">
+                <div class="layer">
+                    <h3>TensorFlow</h3>
+                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/matplotlib-seeklogo.svg" alt="Matplotlib">
+                <div class="layer">
+                    <h3>Matplotlib</h3>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/numpy-seeklogo.svg" alt="Matplotlib">
+                <div class="layer">
+                    <h3>Numpy</h3>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/pandas-icon-seeklogo.svg" alt="Matplotlib">
+                <div class="layer">
+                    <h3>Pandas</h3>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/pytorch-seeklogo.svg" alt="Matplotlib">
+                <div class="layer">
+                    <h3>Pytorch</h3>
+                    
+                </div>
+            </div>
+            <div class="work">
+                <img src="assests/scikit-learn-seeklogo.svg" alt="Matplotlib">
+                <div class="layer">
+                    <h3>scikit-learn</h3>
+                    
+                </div>
+            </div>
+            <!-- Add more containers for other technologies -->
+        </div>
+    </div>
+</div>
+
+<!-- ---------------contact-------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> ddnaik1803@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 8660687937</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/dhanu018/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/feed/?trk=hb_signin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/inkedexpression"><i class="fa-brands fa-github"></i></a>
+                </div>
+                 <a href="assests/D DHANUSH NAIK.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright Ⓒ 2024 | Made by D Dhanush Naik  </p>
+    </div>
+ </div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-contents');
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove('active-link');
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove('active-tab');
+        }
+        event.currentTarget.classList.add('active-link');
+        document.getElementById(tabname).classList.add('active-tab');
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById('sidemenu');
+
+    function openmenu(){
+        sidemenu.style.right = '0';
+    }
+    function closemenu(){
+        sidemenu.style.right = '-200px';
+    }
+</script>
+<form name="submit-to-google-sheet">
+  </form>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxoAwTTnJV3rOSptxvTZ3dLnGtjG_nC1487AgzDYx43WquIyuecgw08SlICJTdi4JY/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = 'Message Sent Sucessfully'
+            setTimeout(function(){
+                msg.innerHTML = ''
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
